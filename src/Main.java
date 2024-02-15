@@ -3,6 +3,7 @@ import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
+
         Banco bbva = new Banco();
         bbva.setContentPane(new Banco().getJpVentanaMenu());
         bbva.getJpVentanaMenu().setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -14,5 +15,6 @@ public class Main {
         bbva.pack();
         bbva.setLocationRelativeTo(null);
         bbva.setVisible(true);
+
     }
 }
