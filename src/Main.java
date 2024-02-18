@@ -4,7 +4,7 @@ import java.awt.*;
 public class Main {
     public static void main(String[] args) {
 
-        Banco2 bbva = new Banco2();
+        Banco bbva = new Banco();
 
         bbva.setContentPane(bbva.getJpVentanaMenu());
         bbva.getJpVentanaMenu().setAlignmentX(Component.CENTER_ALIGNMENT);

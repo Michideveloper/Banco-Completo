@@ -1,7 +1,6 @@
 import javax.swing.*;
-import java.awt.*;
 
-public class Banco2 extends JFrame {
+public class Banco extends JFrame {
     private JPanel jpVentanaMenu;
     private JLabel lblSaldoInicial;
     private JTextField txtfSaldoInicial;
@@ -25,7 +24,7 @@ public class Banco2 extends JFrame {
     private JPanel jpCuentaCorriente;
 
 
-    Banco2() {
+    Banco() {
         super();
     }
 
