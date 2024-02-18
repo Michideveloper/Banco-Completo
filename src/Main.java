@@ -4,8 +4,9 @@ import java.awt.*;
 public class Main {
     public static void main(String[] args) {
 
-        Banco bbva = new Banco();
-        bbva.setContentPane(new Banco().getJpVentanaMenu());
+        Banco2 bbva = new Banco2();
+
+        bbva.setContentPane(bbva.getJpVentanaMenu());
         bbva.getJpVentanaMenu().setAlignmentX(Component.CENTER_ALIGNMENT);
         bbva.setExtendedState(JFrame.MAXIMIZED_BOTH);
         bbva.setUndecorated(true);
@@ -13,8 +14,8 @@ public class Main {
         bbva.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         bbva.setResizable(false);
         bbva.pack();
-        bbva.setLocationRelativeTo(null);
         bbva.setVisible(true);
+
 
     }
 }
